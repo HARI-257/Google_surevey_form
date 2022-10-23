@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="body">
+        <h1 id="title">Google Survey Form</h1>
+        <p id="description">Thank you for taking the time to help us improve the platform</p>
+        <form action="" id="survey-form">
+            <label for=""id="name-label">Name</label><br><br>
+            <input type="text" id="name" placeholder="Enter your Name" required><br><br>
+            <label for=""id="email-label">Email</label><br><br>
+            <input type="email" id="email" placeholder="Enter your Email"required><br><br>
+            <label for=""id="number-label">Age</label><br><br>
+            <input type="number" placeholder="Age" id="number" min="1" max="8"><br><br>
+            
+            <label for="" id="current-label">Current Role</label><br><br>
+            <select name="" id="dropdown">
+                <option value=" "disabled selected value>Select Current Role</option>
+                <option value="Student">Student</option>
+                 <option value="Employed">Employed</option>
+                <option value="Unemployed">Unemployed</option>
+            </select><br><br>
+            <label for="" id="would-label">Would you recommend Google to your friends?</label><br><br>
+            <input type="radio" id="def" name="rec" value="100">
+            <label for="def" style="font-size: 24px;">Definitly</label><br><br>
+            <input type="radio" id="yes" name="rec" value="60">
+            <label for="yes" style="font-size: 24px;">Yes</label><br><br>
+            <input type="radio" id="not" name="rec" value="30">
+            <label for="not" style="font-size: 24px;">Not Sure</label><br><br>
+    
+            <label for="" id="what-label">What do you like to improve</label><br><br>
+            <input type="checkbox" value="100">
+            <label for="" style="font-size: 24px;"> Front end</label><br><br>
+            <input type="checkbox"value="100">
+            <label for="" style="font-size: 24px;"> Back end</label><br><br>
+            <input type="checkbox"value="100">
+            <label for="" style="font-size: 24px;"> Full Stack</label><br><br>
+            
+            <label for="" id="comm">Any comments or suggesstions</label><br><br>
+            <textarea name="" id="" cols="75" rows="6"></textarea><br><br>
+            <input type="submit" id="submit">
+        </form>
+    </div>
+</body>
+</html>
